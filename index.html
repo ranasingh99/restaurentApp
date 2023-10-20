@@ -6,6 +6,20 @@
     <title>RestaurentBookingApp</title>
 </head>
 <body>
-    
+    <form action="#" onsubmit="getorderdetail(event)">
+        <label for="priceamt">Price:</label>
+        <input type="text" id="priceamt" name="price">
+        <label for="ndish">Dish:</label>
+        <input type="text" id="ndish" name="dish">
+        <label for="otable">Table:</label>
+        <input type="text" id="otable" name="table">
+        <!-- <button type="button" id="btn1">AddBill</button> -->
+        <input type="submit" value="AddBill">
+    </form>
+    <ul id="listofOrder">
+
+    </ul>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="index.js"></script>
 </body>
 </html>
