@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todolist</title>
+</head>
+<body>
+    <form action="#" onsubmit="savetodos(event)">
+        <label for="todoname">Todos name:</label>
+        <input type="text" id="todoname" name="todos">
+        <label for="description">Description:</label>
+        <input type="text" id="description" name="todosdescription">
+        <input type="submit" value="AddTodos">
+    </form>
+    <h3>Todos to be done</h3>
+    <ul id="listOfTodods">
+        
+    </ul>
+    <h3 id="heading3">CompletedTodo</h3>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="todos.js"></script>
+</body>
+</html>
