@@ -11,11 +11,17 @@
         <input type="text" id="priceamt" name="price">
         <label for="ndish">Dish:</label>
         <input type="text" id="ndish" name="dish">
-        <label for="otable">Table:</label>
-        <input type="text" id="otable" name="table">
-        <!-- <button type="button" id="btn1">AddBill</button> -->
+        <!-- <label for="otable">Table:</label>
+        <input type="text" id="otable" name="table"> -->
+               <label for="otable">Choose Table:</label>
+        <select id="otable" name="ordertable">
+            <option value="Table1">Table1</option>
+            <option value="Table2">Table2</option>
+            <option value="Table3">Table3</option>
+        </select>
         <input type="submit" value="AddBill">
     </form>
+    <h2>Orders:</h2>
     <ul id="listofOrder">
 
     </ul>
